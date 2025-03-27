@@ -1,0 +1,70 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Home Section with Background Image */
+#home {
+    position: relative;
+    height: 100vh;
+    background: url('photo_2025-03-26_11-57-53.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Small Profile Image in Top Left */
+.profile-img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: 3px solid white;
+    object-fit: cover;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* About Me Section */
+.about-me {
+    background: #333;
+    color: #FFC0CB;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 30px auto;
+    width: 80%;
+}
+
+/* Project Cards */
+
+
+.card {
+    border: none;
+    background: #FFC0CB;
+    color: #333;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    font-size: 14px;
+}
